@@ -152,7 +152,7 @@ $$
 
 Тогда по теореме Дубовицкого - Милютина, в каждой точке $$\partial f = \mathbf{conv}\left(\bigcup\limits_{i \in I(x_0)} \partial g_i(x)\right)$$
 
-Заметим, что $$\partial g(x) = \partial \left( \max \{s^\top x, -s^\top x\} \right) = \begin{cases} -s,  &s^\top x < 0\\ \mathbf{conv}(-s;s), &s^\top x = 0 \\ s,  &s^\top x > 0 \end{cases}$$. 
+Заметим, что $$\partial g_i(x) = \nabla g_i(x) = s_i$$. 
 
 Причем, правило выбора "активной" функции поточечного максимума в каждой точке следующее:
 * Если j-ая координата точки отрицательна, $$s_i^j = -1$$
